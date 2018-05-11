@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="lib1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/zookeeper-3.4.11/lib/audience-annotations-0.5.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/zookeeper-3.4.11/lib/jline-0.9.94.jar!/" />
+      <root url="jar://$PROJECT_DIR$/zookeeper-3.4.11/lib/netty-3.10.5.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/zookeeper-3.4.11/lib/log4j-1.2.16.jar!/" />
+      <root url="jar://$PROJECT_DIR$/zookeeper-3.4.11/lib/slf4j-api-1.6.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/zookeeper-3.4.11/lib/slf4j-log4j12-1.6.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

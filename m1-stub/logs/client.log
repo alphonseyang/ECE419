@@ -1,0 +1,254 @@
+2018-01-25 22:48:41,542 INFO  [main] root: KVStore Initialized
+2018-01-25 22:48:41,582 INFO  [main] root: Successfully connected to server address: localhost port number: 55555
+2018-01-25 22:50:32,628 INFO  [main] root: KVStore Initialized
+2018-01-25 22:50:32,672 INFO  [main] root: Successfully connected to server address: localhost port number: 55555
+2018-01-25 22:50:36,224 INFO  [main] root: KVStore Initialized
+2018-01-25 22:50:36,232 ERROR [main] root: Unable to connect!
+2018-01-25 22:50:48,446 INFO  [main] root: KVStore Initialized
+2018-01-25 22:50:48,478 ERROR [main] root: Unable to connect!
+2018-01-25 22:50:53,114 INFO  [main] root: KVStore Initialized
+2018-01-25 22:50:53,114 ERROR [main] root: Unable to connect!
+2018-01-25 22:51:02,034 INFO  [main] root: KVStore Initialized
+2018-01-25 22:51:02,037 ERROR [main] root: Unable to connect!
+2018-01-25 22:52:23,132 INFO  [main] root: KVStore Initialized
+2018-01-25 22:52:23,150 ERROR [main] root: Unable to connect!
+2018-01-25 22:53:42,704 INFO  [main] root: KVStore Initialized
+2018-01-25 22:53:42,741 INFO  [main] root: Successfully connected to server address: localhost port number: 55555
+2018-01-25 22:54:01,486 INFO  [main] root: KVStore Initialized
+2018-01-25 22:54:01,530 INFO  [main] root: Successfully connected to server address: localhost port number: 55555
+2018-01-25 22:54:04,065 INFO  [main] root: KVStore Initialized
+2018-01-25 22:54:04,070 ERROR [main] root: Unable to connect!
+2018-01-25 22:55:29,666 INFO  [main] root: KVStore Initialized
+2018-01-25 22:55:29,724 INFO  [main] root: Successfully connected to server address: localhost port number: 55555
+2018-01-25 22:55:40,117 INFO  [main] root: KVStore Initialized
+2018-01-25 22:55:40,121 ERROR [main] root: Unable to connect!
+2018-01-25 23:23:36,146 INFO  [main] root: KVStore Initialized
+2018-01-25 23:23:36,203 INFO  [main] root: Successfully connected to server address: localhost port number: 55555
+2018-01-25 23:23:38,846 INFO  [main] root: try to close connection ...
+2018-01-25 23:23:38,846 INFO  [main] root: tearing down the connection ...
+2018-01-25 23:23:38,847 INFO  [main] root: connection closed!
+2018-01-25 23:24:01,055 INFO  [main] root: KVStore Initialized
+2018-01-25 23:24:01,056 ERROR [main] root: Unable to connect! Please check the server address and port number!
+2018-01-25 23:24:14,581 INFO  [main] root: KVStore Initialized
+2018-01-25 23:24:14,599 INFO  [main] root: Successfully connected to server address: localhost port number: 55555
+2018-01-25 23:26:18,407 INFO  [main] root: KVStore Initialized
+2018-01-25 23:26:18,471 INFO  [main] root: Successfully connected to server address: localhost port number: 55555
+2018-01-25 23:27:07,951 INFO  [main] root: KVStore Initialized
+2018-01-25 23:27:08,015 INFO  [main] root: Successfully connected to server address: localhost port number: 55555
+2018-01-25 23:27:13,039 INFO  [main] root: Method is PUT_SUCCESS KEY is ab Value is 1 
+2018-01-25 23:27:41,932 INFO  [main] root: KVStore Initialized
+2018-01-25 23:27:42,077 INFO  [main] root: Successfully connected to server address: localhost port number: 55555
+2018-01-25 23:31:12,849 INFO  [main] root: KVStore Initialized
+2018-01-25 23:31:12,919 INFO  [main] root: Successfully connected to server address: localhost port number: 55555
+2018-01-25 23:35:01,558 INFO  [main] root: KVStore Initialized
+2018-01-25 23:35:01,574 ERROR [main] root: Unable to connect! Please check the server address and port number!
+2018-01-25 23:35:10,377 INFO  [main] root: KVStore Initialized
+2018-01-25 23:35:10,378 INFO  [main] root: Successfully connected to server address: localhost port number: 55555
+2018-01-25 23:35:16,378 INFO  [main] root: Method is PUT_SUCCESS KEY is a Value is 1 
+2018-01-25 23:35:18,454 INFO  [main] root: Method is PUT_UPDATE KEY is a Value is 2 
+2018-01-25 23:35:20,890 INFO  [main] root: Method is GET_SUCCESS KEY is a Value is 2
+2018-01-25 23:35:23,154 INFO  [main] root: Method is PUT_UPDATE KEY is a Value is 3 
+2018-01-25 23:35:24,165 INFO  [main] root: Method is GET_SUCCESS KEY is a Value is 3
+2018-01-25 23:35:38,736 INFO  [main] root: Method is DELETE_SUCCESS KEY is a Value is null
+2018-01-25 23:35:41,422 INFO  [main] root: Method is GET_ERROR KEY is a Value is null
+2018-01-25 23:35:46,577 INFO  [main] root: Method is PUT_SUCCESS KEY is a Value is 1 
+2018-01-25 23:35:48,745 INFO  [main] root: Method is GET_SUCCESS KEY is a Value is 1
+2018-01-25 23:41:10,158 INFO  [main] root: M1-Client> 
+2018-01-25 23:41:16,851 INFO  [main] root: connect <ServerAddress> <PortNumber> ; put <key> <value>; get <key>; disconnect; help
+2018-01-25 23:41:16,852 INFO  [main] root: M1-Client> 
+2018-01-25 23:42:33,914 INFO  [main] root: connect <ServerAddress> <PortNumber> ; put <key> <value>; get <key>; disconnect; help
+2018-01-25 23:43:00,986 INFO  [main] root: connect <ServerAddress> <PortNumber> ; put <key> <value>; get <key>; disconnect; help;
+2018-01-25 23:43:08,185 INFO  [main] root: KVStore Initialized
+2018-01-25 23:43:08,238 INFO  [main] root: Successfully connected to server address: localhost port number: 55555
+2018-01-25 23:43:10,597 INFO  [main] root: Method is GET_SUCCESS KEY is a Value is 1
+2018-01-25 23:43:10,598 INFO  [main] root: GET_SUCCESS    a    1
+2018-01-25 23:43:18,616 INFO  [main] root: Method is GET_SUCCESS KEY is ab Value is 1
+2018-01-25 23:43:18,619 INFO  [main] root: GET_SUCCESS    ab    1
+2018-01-25 23:43:22,232 INFO  [main] root: Method is GET_ERROR KEY is qqq Value is null
+2018-01-25 23:43:22,232 INFO  [main] root: GET_ERROR    qqq    null
+2018-01-26 13:14:38,706 INFO  [main] root: KVStore Initialized
+2018-01-26 13:14:38,745 INFO  [main] root: Successfully connected to server address: localhost port number: 55555
+2018-01-26 13:14:41,209 INFO  [main] root: Method is PUT_UPDATE KEY is a Value is 1 
+2018-01-26 13:14:41,209 INFO  [main] root: PUT_UPDATE    a    1 
+2018-01-26 13:14:50,376 INFO  [main] root: Method is PUT_SUCCESS KEY is ba Value is 1 
+2018-01-26 13:14:50,377 INFO  [main] root: PUT_SUCCESS    ba    1 
+2018-01-26 13:32:18,159 INFO  [main] root: KVStore Initialized
+2018-01-26 13:32:18,193 INFO  [main] root: Successfully connected to server address: localhost port number: 55555
+2018-01-26 13:32:20,284 INFO  [main] root: Method is PUT_UPDATE KEY is a Value is 1 
+2018-01-26 13:32:20,284 INFO  [main] root: PUT_UPDATE    a    1 
+2018-01-26 14:05:35,966 INFO  [main] root: KVStore Initialized
+2018-01-26 14:05:36,007 INFO  [main] root: Successfully connected to server address: localhost port number: 55555
+2018-01-26 14:05:39,244 INFO  [main] root: Method is PUT_SUCCESS KEY is a Value is 1 
+2018-01-26 14:05:39,244 INFO  [main] root: PUT_SUCCESS    a    1 
+2018-01-26 14:20:59,889 INFO  [main] root: KVStore Initialized
+2018-01-26 14:20:59,923 INFO  [main] root: Successfully connected to server address: localhost port number: 55555
+2018-01-26 14:21:02,199 INFO  [main] root: try to close connection ...
+2018-01-26 14:21:02,199 INFO  [main] root: tearing down the connection ...
+2018-01-26 14:21:02,200 INFO  [main] root: connection closed!
+2018-01-26 14:21:15,416 INFO  [main] root: KVStore Initialized
+2018-01-26 14:21:15,419 INFO  [main] root: Successfully connected to server address: localhost port number: 55555
+2018-01-26 14:21:22,104 INFO  [main] root: try to close connection ...
+2018-01-26 14:21:22,104 INFO  [main] root: tearing down the connection ...
+2018-01-26 14:21:22,105 INFO  [main] root: connection closed!
+2018-01-26 14:22:51,960 INFO  [main] root: KVStore Initialized
+2018-01-26 14:22:51,982 INFO  [main] root: Successfully connected to server address: localhost port number: 55555
+2018-01-26 14:22:55,147 INFO  [main] root: Method is PUT_SUCCESS KEY is a Value is 1 
+2018-01-26 14:22:55,148 INFO  [main] root: PUT_SUCCESS    a    1 
+2018-01-26 14:22:57,532 INFO  [main] root: Method is DELETE_SUCCESS KEY is a Value is null
+2018-01-26 14:22:57,533 INFO  [main] root: DELETE_SUCCESS    a    null
+2018-01-26 14:24:44,160 INFO  [main] root: KVStore Initialized
+2018-01-26 14:24:44,245 INFO  [main] root: Successfully connected to server address: localhost port number: 55555
+2018-01-26 14:24:46,271 INFO  [main] root: Method is PUT_SUCCESS KEY is a Value is 1 
+2018-01-26 14:24:46,271 INFO  [main] root: PUT_SUCCESS    a    1 
+2018-01-26 14:24:48,083 INFO  [main] root: Method is PUT_UPDATE KEY is a Value is null 
+2018-01-26 14:24:48,084 INFO  [main] root: PUT_UPDATE    a    null 
+2018-01-26 14:25:09,015 INFO  [main] root: KVStore Initialized
+2018-01-26 14:25:09,057 INFO  [main] root: Successfully connected to server address: localhost port number: 55555
+2018-01-26 14:25:10,416 INFO  [main] root: Method is PUT_UPDATE KEY is a Value is 1 
+2018-01-26 14:25:10,417 INFO  [main] root: PUT_UPDATE    a    1 
+2018-01-26 14:25:12,190 INFO  [main] root: Method is PUT_UPDATE KEY is a Value is null 
+2018-01-26 14:25:12,191 INFO  [main] root: PUT_UPDATE    a    null 
+2018-01-26 14:25:52,095 INFO  [main] root: KVStore Initialized
+2018-01-26 14:25:52,130 INFO  [main] root: Successfully connected to server address: localhost port number: 55555
+2018-01-26 14:25:54,577 INFO  [main] root: Method is PUT_UPDATE KEY is a Value is null 
+2018-01-26 14:25:54,577 INFO  [main] root: PUT_UPDATE    a    null 
+2018-01-26 14:27:00,555 INFO  [main] root: KVStore Initialized
+2018-01-26 14:27:00,589 INFO  [main] root: Successfully connected to server address: localhost port number: 55555
+2018-01-26 14:27:14,151 INFO  [main] root: Method is PUT_UPDATE KEY is a Value is 1 
+2018-01-26 14:27:14,151 INFO  [main] root: PUT_UPDATE    a    1 
+2018-01-26 14:27:52,834 INFO  [main] root: Method is PUT_UPDATE KEY is a Value is null 
+2018-01-26 14:27:52,834 INFO  [main] root: PUT_UPDATE    a    null 
+2018-01-26 14:28:02,448 ERROR [main] root: M1-Client> Error! Not connected
+2018-01-26 14:28:07,512 INFO  [main] root: KVStore Initialized
+2018-01-26 14:28:07,552 INFO  [main] root: Successfully connected to server address: localhost port number: 55555
+2018-01-26 14:28:10,367 INFO  [main] root: Method is PUT_UPDATE KEY is a Value is null 
+2018-01-26 14:28:10,367 INFO  [main] root: PUT_UPDATE    a    null 
+2018-01-26 14:29:30,164 INFO  [main] root: KVStore Initialized
+2018-01-26 14:29:30,200 INFO  [main] root: Successfully connected to server address: localhost port number: 55555
+2018-01-26 14:29:31,367 INFO  [main] root: Method is PUT_UPDATE KEY is a Value is 1 
+2018-01-26 14:29:31,368 INFO  [main] root: PUT_UPDATE    a    1 
+2018-01-26 14:29:33,233 INFO  [main] root: Method is PUT_UPDATE KEY is a Value is null 
+2018-01-26 14:29:33,234 INFO  [main] root: PUT_UPDATE    a    null 
+2018-01-26 14:30:07,383 INFO  [main] root: KVStore Initialized
+2018-01-26 14:30:07,418 INFO  [main] root: Successfully connected to server address: localhost port number: 55555
+2018-01-26 14:30:46,981 INFO  [main] root: Method is PUT_UPDATE KEY is a Value is null 
+2018-01-26 14:30:46,982 INFO  [main] root: PUT_UPDATE    a    null 
+2018-01-26 14:31:02,102 INFO  [main] root: KVStore Initialized
+2018-01-26 14:31:02,144 INFO  [main] root: Successfully connected to server address: localhost port number: 55555
+2018-01-26 14:31:04,534 INFO  [main] root: Method is PUT_UPDATE KEY is a Value is null 
+2018-01-26 14:31:04,535 INFO  [main] root: PUT_UPDATE    a    null 
+2018-01-26 14:32:28,172 INFO  [main] root: KVStore Initialized
+2018-01-26 14:32:28,209 INFO  [main] root: Successfully connected to server address: localhost port number: 55555
+2018-01-26 14:32:29,972 INFO  [main] root: Method is PUT_UPDATE KEY is a Value is null 
+2018-01-26 14:32:29,972 INFO  [main] root: PUT_UPDATE    a    null 
+2018-01-26 14:34:44,874 INFO  [main] root: KVStore Initialized
+2018-01-26 14:34:44,913 INFO  [main] root: Successfully connected to server address: localhost port number: 55555
+2018-01-26 14:35:38,437 INFO  [main] root: Method is PUT_UPDATE KEY is a Value is null 
+2018-01-26 14:35:38,437 INFO  [main] root: PUT_UPDATE    a    null 
+2018-01-26 14:36:01,298 INFO  [main] root: Method is PUT_UPDATE KEY is a Value is null 
+2018-01-26 14:36:01,298 INFO  [main] root: PUT_UPDATE    a    null 
+2018-01-26 14:36:13,681 INFO  [main] root: KVStore Initialized
+2018-01-26 14:36:13,722 INFO  [main] root: Successfully connected to server address: localhost port number: 55555
+2018-01-26 14:36:23,934 INFO  [main] root: Method is DELETE_SUCCESS KEY is a Value is null 
+2018-01-26 14:36:23,935 INFO  [main] root: DELETE_SUCCESS    a    null 
+2018-01-26 21:09:12,154 INFO  [main] root: KVStore Initialized
+2018-01-26 21:09:12,194 INFO  [main] root: Successfully connected to server address: localhost port number: 55555
+2018-01-26 21:10:16,865 INFO  [main] root: KVStore Initialized
+2018-01-26 21:10:16,905 INFO  [main] root: Successfully connected to server address: localhost port number: 55555
+2018-01-26 21:10:17,978 INFO  [main] root: Method is PUT_SUCCESS KEY is a Value is 11
+2018-01-26 21:10:17,979 INFO  [main] root: PUT_SUCCESS    a    11
+2018-01-26 21:13:10,191 INFO  [main] root: KVStore Initialized
+2018-01-26 21:13:10,232 INFO  [main] root: Successfully connected to server address: localhost port number: 55555
+2018-01-26 21:13:11,540 INFO  [main] root: Method is PUT_UPDATE KEY is a Value is 1
+2018-01-26 21:13:11,541 INFO  [main] root: PUT_UPDATE    a    1
+2018-01-26 21:21:04,589 INFO  [main] root: KVStore Initialized
+2018-01-26 21:21:04,624 INFO  [main] root: Successfully connected to server address: localhost port number: 55555
+2018-01-26 21:21:27,099 ERROR [main] root: java.io.EOFException
+2018-01-26 21:24:54,886 INFO  [main] root: KVStore Initialized
+2018-01-26 21:24:54,923 INFO  [main] root: Successfully connected to server address: localhost port number: 55555
+2018-01-26 21:25:12,123 ERROR [main] root: java.io.EOFException
+2018-01-26 21:29:38,692 INFO  [main] root: KVStore Initialized
+2018-01-26 21:29:38,732 INFO  [main] root: Successfully connected to server address: localhost port number: 55555
+2018-01-26 21:34:14,078 INFO  [main] root: KVStore Initialized
+2018-01-26 21:34:14,112 INFO  [main] root: Successfully connected to server address: localhost port number: 55555
+2018-01-26 21:34:15,685 INFO  [main] root: Method is PUT_UPDATE KEY is a Value is 1
+2018-01-26 21:34:15,685 INFO  [main] root: PUT_UPDATE    a    1
+2018-01-26 21:34:18,474 INFO  [main] root: Method is PUT_SUCCESS KEY is b Value is 2
+2018-01-26 21:34:18,474 INFO  [main] root: PUT_SUCCESS    b    2
+2018-01-26 21:34:20,254 INFO  [main] root: Method is PUT_UPDATE KEY is b Value is 3
+2018-01-26 21:34:20,254 INFO  [main] root: PUT_UPDATE    b    3
+2018-01-26 21:35:05,167 INFO  [main] root: KVStore Initialized
+2018-01-26 21:35:05,202 INFO  [main] root: Successfully connected to server address: localhost port number: 55555
+2018-01-26 21:37:06,012 INFO  [main] root: KVStore Initialized
+2018-01-26 21:37:06,046 INFO  [main] root: Successfully connected to server address: localhost port number: 55555
+2018-01-26 21:37:08,292 INFO  [main] root: Method is PUT_SUCCESS KEY is a Value is 1
+2018-01-26 21:37:08,292 INFO  [main] root: PUT_SUCCESS    a    1
+2018-01-26 21:37:47,590 INFO  [main] root: KVStore Initialized
+2018-01-26 21:37:47,653 INFO  [main] root: Successfully connected to server address: localhost port number: 55555
+2018-01-26 21:41:17,577 INFO  [main] root: KVStore Initialized
+2018-01-26 21:41:17,611 INFO  [main] root: Successfully connected to server address: localhost port number: 55555
+2018-01-26 21:41:20,250 ERROR [main] root: Error! Read object failed! org.json.JSONException: JSONObject["key"] not found.
+2018-01-26 21:41:20,250 ERROR [main] root: java.lang.NullPointerException
+2018-01-26 21:41:32,128 ERROR [main] root: Error! Read object failed! org.json.JSONException: JSONObject["key"] not found.
+2018-01-26 21:41:32,129 ERROR [main] root: java.lang.NullPointerException
+2018-01-26 21:41:35,642 ERROR [main] root: Error! Read object failed! org.json.JSONException: JSONObject["key"] not found.
+2018-01-26 21:41:35,642 ERROR [main] root: java.lang.NullPointerException
+2018-01-26 21:42:45,218 INFO  [main] root: KVStore Initialized
+2018-01-26 21:42:45,248 INFO  [main] root: Successfully connected to server address: localhost port number: 55555
+2018-01-26 21:42:46,339 ERROR [main] root: Error! Read object failed! org.json.JSONException: JSONObject["key"] not found.
+2018-01-26 21:42:46,339 ERROR [main] root: java.lang.NullPointerException
+2018-01-26 21:43:23,544 INFO  [main] root: KVStore Initialized
+2018-01-26 21:43:23,610 INFO  [main] root: Successfully connected to server address: localhost port number: 55555
+2018-01-26 21:43:26,819 ERROR [main] root: Error! Read object failed! org.json.JSONException: JSONObject["key"] not found.
+2018-01-26 21:43:26,819 ERROR [main] root: java.lang.NullPointerException
+2018-01-26 21:44:23,430 ERROR [main] root: Error! Read object failed! org.json.JSONException: JSONObject["key"] not found.
+2018-01-26 21:44:23,430 ERROR [main] root: java.lang.NullPointerException
+2018-01-26 21:44:45,776 INFO  [main] root: KVStore Initialized
+2018-01-26 21:44:45,839 INFO  [main] root: Successfully connected to server address: localhost port number: 55555
+2018-01-26 21:45:13,798 ERROR [main] root: Error! Read object failed! org.json.JSONException: JSONObject["key"] not found.
+2018-01-26 21:45:13,799 ERROR [main] root: java.lang.NullPointerException
+2018-01-26 21:45:13,799 ERROR [main] root: M1-Client> Error! CLI does not respond - Appilication terminated 
+2018-01-26 21:45:44,190 INFO  [main] root: KVStore Initialized
+2018-01-26 21:45:44,225 INFO  [main] root: Successfully connected to server address: localhost port number: 55555
+2018-01-26 21:46:25,764 ERROR [main] root: Error! Read object failed! org.json.JSONException: JSONObject["key"] not found.
+2018-01-26 21:46:25,765 ERROR [main] root: java.lang.NullPointerException
+2018-01-26 21:46:46,188 ERROR [main] root: Error! Read object failed! org.json.JSONException: JSONObject["key"] not found.
+2018-01-26 21:46:46,188 ERROR [main] root: java.lang.NullPointerException
+2018-01-26 21:46:55,067 INFO  [main] root: KVStore Initialized
+2018-01-26 21:46:55,102 INFO  [main] root: Successfully connected to server address: localhost port number: 55555
+2018-01-26 21:47:23,877 ERROR [main] root: Error! Read object failed! org.json.JSONException: JSONObject["key"] not found.
+2018-01-26 21:47:23,877 ERROR [main] root: java.lang.NullPointerException
+2018-01-26 21:48:25,981 ERROR [main] root: Error! Read object failed! org.json.JSONException: JSONObject["key"] not found.
+2018-01-26 21:48:25,981 ERROR [main] root: java.lang.NullPointerException
+2018-01-26 22:00:50,371 INFO  [main] root: KVStore Initialized
+2018-01-26 22:00:50,406 INFO  [main] root: Successfully connected to server address: localhost port number: 55555
+2018-01-26 22:00:52,513 INFO  [main] root: Method is PUT_SUCCESS KEY is a Value is 1
+2018-01-26 22:00:52,514 INFO  [main] root: PUT_SUCCESS    a    1
+2018-01-26 22:00:55,335 INFO  [main] root: Method is PUT_UPDATE KEY is a Value is 2
+2018-01-26 22:00:55,336 INFO  [main] root: PUT_UPDATE    a    2
+2018-01-26 22:02:19,607 INFO  [main] root: KVStore Initialized
+2018-01-26 22:02:19,643 INFO  [main] root: Successfully connected to server address: localhost port number: 55555
+2018-01-26 22:02:48,464 INFO  [main] root: KVStore Initialized
+2018-01-26 22:02:48,467 INFO  [main] root: Successfully connected to server address: localhost port number: 55555
+2018-01-27 20:58:05,401 INFO  [main] root: KVStore Initialized
+2018-01-27 20:58:05,445 INFO  [main] root: Successfully connected to server address: localhost port number: 55555
+2018-01-27 20:58:08,748 INFO  [main] root: Sent Message: Status is PUT; KEY is a; Value is 1
+2018-01-27 20:58:08,811 INFO  [main] root: Received Message: Status is PUT_SUCCESS; KEY is a; Value is 1
+2018-01-27 20:58:20,193 INFO  [main] root: Sent Message: Status is GET; KEY is a; Value is null
+2018-01-27 20:58:20,195 INFO  [main] root: Received Message: Status is GET_SUCCESS; KEY is a; Value is 1
+2018-01-27 20:58:32,947 INFO  [main] root: Sent Message: Status is PUT; KEY is a; Value is 2
+2018-01-27 20:58:32,982 INFO  [main] root: Received Message: Status is PUT_UPDATE; KEY is a; Value is 2
+2018-01-27 20:58:45,229 INFO  [main] root: Sent Message: Status is PUT; KEY is a; Value is null
+2018-01-27 20:58:45,275 INFO  [main] root: Received Message: Status is DELETE_SUCCESS; KEY is a; Value is null
+2018-01-27 20:59:03,715 INFO  [main] root: Sent Message: Status is GET; KEY is a; Value is null
+2018-01-27 20:59:03,717 INFO  [main] root: Received Message: Status is GET_ERROR; KEY is a; Value is null
+2018-01-27 20:59:11,491 INFO  [main] root: try to close connection ...
+2018-01-27 20:59:11,491 INFO  [main] root: tearing down the connection ...
+2018-01-27 20:59:11,492 INFO  [main] root: connection closed!
+2018-01-27 20:59:11,492 INFO  [main] root: M1-Client> Application exit!
+2018-01-27 20:59:24,529 INFO  [main] root: KVStore Initialized
+2018-01-27 20:59:24,567 INFO  [main] root: Successfully connected to server address: localhost port number: 55555
+2018-01-27 20:59:27,583 INFO  [main] root: Sent Message: Status is PUT; KEY is a; Value is 2
+2018-01-27 20:59:27,617 INFO  [main] root: Received Message: Status is PUT_SUCCESS; KEY is a; Value is 2
+2018-01-27 20:59:36,980 INFO  [main] root: Sent Message: Status is GET; KEY is a; Value is null
+2018-01-27 20:59:36,983 INFO  [main] root: Received Message: Status is GET_SUCCESS; KEY is a; Value is 2

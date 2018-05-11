@@ -1,0 +1,20 @@
+<component name="ArtifactManager">
+  <artifact build-on-make="true" name="m2-stub:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/m2_stub_jar</output-path>
+    <root id="root">
+      <element id="archive" name="m2-stub.jar">
+        <element id="module-output" name="m2-stub" />
+        <element id="module-output" name="zookeeper-3.4.11" />
+        <element id="module-output" name="fatjar" />
+        <element id="module-output" name="fatjar1" />
+      </element>
+      <element id="library" level="project" name="m2-stub" />
+      <element id="library" level="project" name="lib1" />
+      <element id="library" level="project" name="zookeeper-3.4.11" />
+      <element id="library" level="project" name="lib" />
+      <element id="library" level="project" name="libs" />
+      <element id="library" level="project" name="zookeeper-3.4.11-fatjar" />
+      <element id="library" level="project" name="dist-maven" />
+    </root>
+  </artifact>
+</component>

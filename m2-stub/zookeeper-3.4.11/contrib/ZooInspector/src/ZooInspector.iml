@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/java" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="jtoaster-1.0.4" level="project" />
+    <orderEntry type="library" name="zookeeper-3.4.11-fatjar" level="project" />
+    <orderEntry type="library" name="dist-maven" level="project" />
+    <orderEntry type="library" name="m2-stub" level="project" />
+    <orderEntry type="library" name="jtoaster-1.0.41" level="project" />
+    <orderEntry type="library" name="libs" level="project" />
+    <orderEntry type="library" name="zookeeper-3.4.11" level="project" />
+    <orderEntry type="module" module-name="zookeeper-3.4.11" />
+  </component>
+</module>

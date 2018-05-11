@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="zookeeper-3.4.11-ZooInspector">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/zookeeper-3.4.11/contrib/ZooInspector/zookeeper-3.4.11-ZooInspector.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project basedir="." default="build-jar" name="Basic Storage Server">
+
+  <property environment="env"/>
+  <property name="debuglevel" value="source,lines,vars"/>
+  <property name="target" value="1.7"/>
+  <property name="source" value="1.7"/>
+
+  <property name="build.dir"     value="bin"/>
+  <property name="src.dir"       value="src"/>
+  <property name="lib.dir"       value="libs"/>
+
+  <!-- Configuration for client application -->
+  <property name="clientjar.file"      value="m1-client.jar"/>
+  <property name="clientmanifest.file" value="CLIENT_MANIFEST.MF"/>
+  <property name="clientmain.class" value="app_kvClient.KVClient"/>
+
+  <!-- Configuration for server application -->
+  <property name="serverjar.file"      value="m1-server.jar"/>
+  <property name="servermanifest.file" value="SERVER_MANIFEST.MF"/>
+  <property name="servermain.class" value="app_kvServer.KVServer"/>
+
+  <!-- path to libraries-->
+  <path id="external.jars">
+    <fileset dir="${lib.dir}" includes="**/*.jar"/>
+  </path>
+
+  <!-- Build path -->
+  <path id="project.buildpath">
+    <pathelement location="${src.dir}"/>
+    <path refid="external.jars" />
+  </path>
+
+  <!-- Class path -->
+  <path id="project.classpath">
+    <pathelement location="${build.dir}"/>
+    <path refid="external.jars" />
+  </path>
+
+  <target name="init">
+    <mkdir dir="${build.dir}"/>
+    <copy includeemptydirs="false" todir="${build.dir}">
+      <fileset dir="${src.dir}">
+        <exclude name="**/*.launch"/>
+        <exclude name="**/*.java"/>
+      </fileset>
+    </copy>
+  </target>
+
+  <target name="clean">
+    <delete dir="${build.dir}"/>
+    <delete file="${clientjar.file}" />
+    <delete file="${clientmanifest.file}" />
+    <delete file="${serverjar.file}" />
+    <delete file="${servermanifest.file}" />
+  </target>
+
+  <target name="cleanall" depends="clean"/>
+
+  <!-- build complete project -->
+  <target name="build" depends="init">
+    <echo message="${ant.project.name}: ${ant.file}"/>
+    <javac debug="true" debuglevel="${debuglevel}" destdir="bin"
+          source="${source}" target="${target}"
+          classpathref="project.classpath" includeantruntime="false">
+      <src path="${src.dir}"/>
+    </javac>
+  </target>
+
+  <!-- build client jar -->
+  <target name="build-client-jar" depends="build">
+    <delete file="${clientjar.file}" />
+    <delete file="${clientmanifest.file}" />
+
+    <manifest file="${clientmanifest.file}" >
+      <attribute name="built-by" value="${user.name}" />
+      <attribute name="Main-Class" value="${clientmain.class}" />
+      <attribute name="Class-Path" value="${project.classpath}"/>
+    </manifest>
+
+    <jar destfile="${clientjar.file}" basedir="${build.dir}"
+        manifest="${clientmanifest.file}">
+      <fileset dir="${build.dir}" includes="**/*.class" />
+      <zipgroupfileset dir="${lib.dir}" includes="**/*.jar" />
+    </jar>
+  </target>
+
+  <!-- build server jar -->
+  <target name="build-server-jar" depends="build">
+    <delete file="${serverjar.file}" />
+    <delete file="${servermanifest.file}" />
+
+    <manifest file="${servermanifest.file}" >
+      <attribute name="built-by" value="${user.name}" />
+      <attribute name="Main-Class" value="${servermain.class}" />
+      <attribute name="Class-Path" value="${project.classpath}"/>
+    </manifest>
+
+    <jar destfile="${serverjar.file}" basedir="${build.dir}"
+        manifest="${servermanifest.file}">
+      <fileset dir="${build.dir}" includes="**/*.class" />
+      <zipgroupfileset dir="${lib.dir}" includes="**/*.jar" />
+    </jar>
+  </target>
+
+  <!-- generate separate jar files for client and server application -->
+  <target name="build-jar" depends="build-client-jar, build-server-jar" />
+
+  <!-- run test cases -->
+  <target name="test" depends="build">
+    <junit>
+      <classpath refid="project.classpath" />
+      <formatter type="brief" usefile="false" />
+      <test name="testing.AllTests" />
+    </junit>
+  </target>
+
+  <target name="run" >
+    <java classname="${main.class}" classpathref="class.path"/>
+  </target>
+
+</project>

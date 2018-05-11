@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="zookeeper-3.4.11-loggraph">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/zookeeper-3.4.11/contrib/loggraph/zookeeper-3.4.11-loggraph.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

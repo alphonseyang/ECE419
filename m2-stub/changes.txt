@@ -1,0 +1,38 @@
+app_kvECS:
+    ECSClient/IECSClient    - new classes
+        boolean start()                                                     - as per doc
+        boolean stop()                                                      - as per doc
+        boolean shutdown()                                                  - as per doc
+        IECSNode addNode(String cacheStrategy, int cacheSize)                 - as per doc
+        Collection<IECSNode> addNodes(int count, String cacheStrategy, int cacheSize - as per doc (initService) NOTE: Must call setupNodes before the SSH calls to start the servers and must call awaitNodes before returning
+        Collection<IECSNode> setupNodes(int count, String cacheStrategy, int cacheSize) -
+        boolean awaitNodes(int count)                                       -
+        boolean removeNodes(Collection<String> nodeNames)                             -
+        Map<String, IECSNode> getNodes()                                    -
+        void getNodeByKey(String Key)                                       -
+
+app_kvServer:
+    IKVServer/KVserver      - new methods
+        KVServer(String name, String zkHostname, int zkPort)    - new ctor
+        void start()                                            - as per doc
+        void stop()                                             - as per doc
+        void lockWrite()                                        - as per doc
+        void unlockWrite()                                      - as per doc
+        boolean moveData(String[] hashRange, String targetName) - as per doc
+
+client:
+    KVCommInterface/KVStore - added methods
+        boolean isConnected()   - test if current store is connected to the KVServer
+
+common:
+    messages:
+        KVMessage   - new stuff
+            StatusType              - now includes SERVER_STOPPED, SERVER_WRITE_LOCK, SERVER_NOT_RESPONSIBLE as per doc
+                IECSNode getResponsibleServer() - get responsible server
+
+ecs:
+    IECSNode    - new interface
+        String getNodeName()        - get the node name
+        String getNodeHost()        - get the node hostname
+        int getNodePort()           - get the node port
+        String[] getNodeHashRange() - get the hash range of the node

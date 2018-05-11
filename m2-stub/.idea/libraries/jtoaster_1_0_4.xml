@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="jtoaster-1.0.4">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/zookeeper-3.4.11/contrib/ZooInspector/lib/jtoaster-1.0.4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

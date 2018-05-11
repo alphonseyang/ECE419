@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="m2-stub">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/m2-ecs.jar!/" />
+      <root url="jar://$PROJECT_DIR$/m2-server.jar!/" />
+      <root url="jar://$PROJECT_DIR$/m2-client.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

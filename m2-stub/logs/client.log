@@ -1,0 +1,277 @@
+2018-03-01 22:23:42,475 INFO  [main] root: KVStore Initialized
+2018-03-01 22:26:18,471 INFO  [main] root: KVStore Initialized
+2018-03-01 22:26:18,506 INFO  [main] root: Successfully connected to server address: localhost port number: 5555
+2018-03-01 22:26:21,221 INFO  [main] root: Sent Message: Status is PUT; KEY is a; Value is 1
+2018-03-01 22:26:21,274 INFO  [main] root: Received Message: Status is PUT_SUCCESS; KEY is a; Value is 1
+2018-03-01 22:26:22,659 INFO  [main] root: Sent Message: Status is GET; KEY is a; Value is null
+2018-03-01 22:26:22,661 INFO  [main] root: Received Message: Status is GET_SUCCESS; KEY is a; Value is 1
+2018-03-01 22:26:26,483 INFO  [main] root: Sent Message: Status is PUT; KEY is a; Value is null
+2018-03-01 22:26:26,486 INFO  [main] root: Received Message: Status is DELETE_SUCCESS; KEY is a; Value is null
+2018-03-01 22:26:28,220 ERROR [main] root: M2-Client> Error! Invalid number of parameters!
+2018-03-01 22:26:32,668 INFO  [main] root: Sent Message: Status is GET; KEY is a; Value is null
+2018-03-01 22:26:32,670 INFO  [main] root: Received Message: Status is GET_ERROR; KEY is a; Value is null
+2018-03-01 23:15:59,348 INFO  [main] root: KVStore Initialized
+2018-03-01 23:15:59,390 INFO  [main] root: Successfully connected to server address: localhost port number: 5555
+2018-03-01 23:16:01,334 INFO  [main] root: Sent Message: Status is PUT; KEY is a; Value is 1
+2018-03-01 23:16:01,384 INFO  [main] root: Received Message: Status is PUT_SUCCESS; KEY is a; Value is 1
+2018-03-01 23:16:03,541 INFO  [main] root: Sent Message: Status is GET; KEY is a; Value is null
+2018-03-01 23:16:03,543 INFO  [main] root: Received Message: Status is GET_SUCCESS; KEY is a; Value is 1
+2018-03-01 23:16:07,882 INFO  [main] root: Sent Message: Status is PUT; KEY is a; Value is 32323
+2018-03-01 23:16:07,891 INFO  [main] root: Received Message: Status is PUT_UPDATE; KEY is a; Value is 32323
+2018-03-01 23:16:09,366 INFO  [main] root: Sent Message: Status is GET; KEY is a; Value is null
+2018-03-01 23:16:09,367 INFO  [main] root: Received Message: Status is GET_SUCCESS; KEY is a; Value is 32323
+2018-03-09 15:38:46,553 INFO  [main] root: KVStore Initialized
+2018-03-09 15:38:46,623 INFO  [main] root: Successfully connected to server address: localhost port number: 50006
+2018-03-09 15:39:32,703 INFO  [main] root: Sent Message: Status is PUT; KEY is a; Value is 1
+2018-03-09 15:39:58,347 INFO  [main] root: Received Message: Status is null; KEY is a; Value is 1
+2018-03-09 15:40:23,704 INFO  [main] root: Sent Message: Status is PUT; KEY is a; Value is 1
+2018-03-09 15:40:27,075 INFO  [main] root: Received Message: Status is null; KEY is a; Value is 1
+2018-03-09 15:40:58,126 INFO  [main] root: KVStore Initialized
+2018-03-09 15:40:58,183 INFO  [main] root: Successfully connected to server address: localhost port number: 50006
+2018-03-09 15:41:12,176 INFO  [main] root: Sent Message: Status is GET; KEY is a; Value is null
+2018-03-09 15:41:22,381 INFO  [main] root: Received Message: Status is null; KEY is a; Value is null
+2018-03-09 15:41:57,041 INFO  [main] root: Sent Message: Status is PUT; KEY is a; Value is 1
+2018-03-09 15:43:47,926 INFO  [main] root: Received Message: Status is null; KEY is a; Value is 1
+2018-03-09 15:46:17,310 INFO  [main] root: KVStore Initialized
+2018-03-09 15:46:17,385 INFO  [main] root: Successfully connected to server address: localhost port number: 50006
+2018-03-09 15:46:36,542 INFO  [main] root: Sent Message: Status is PUT; KEY is a; Value is 1
+2018-03-09 15:55:08,714 INFO  [main] root: Received Message: Status is null; KEY is a; Value is 1
+2018-03-09 15:56:04,972 INFO  [main] root: KVStore Initialized
+2018-03-09 15:56:05,065 INFO  [main] root: Successfully connected to server address: localhost port number: 50006
+2018-03-09 15:56:16,525 INFO  [main] root: Sent Message: Status is PUT; KEY is a; Value is 1
+2018-03-09 15:58:24,936 INFO  [main] root: Received Message: Status is null; KEY is a; Value is 1
+2018-03-09 15:58:24,941 ERROR [main] root: M2-Client> Error! CLI does not respond - Appilication terminated 
+2018-03-09 15:59:02,034 INFO  [main] root: KVStore Initialized
+2018-03-09 15:59:02,097 INFO  [main] root: Successfully connected to server address: localhost port number: 50006
+2018-03-09 15:59:23,075 INFO  [main] root: Sent Message: Status is PUT; KEY is a; Value is 1
+2018-03-09 16:00:03,926 INFO  [main] root: Received Message: Status is null; KEY is a; Value is 1
+2018-03-09 16:00:03,929 ERROR [main] root: M2-Client> Error! CLI does not respond - Appilication terminated 
+2018-03-09 16:00:28,844 INFO  [main] root: KVStore Initialized
+2018-03-09 16:00:28,917 INFO  [main] root: Successfully connected to server address: localhost port number: 50006
+2018-03-09 16:00:49,887 INFO  [main] root: Sent Message: Status is PUT; KEY is a; Value is 1
+2018-03-09 16:01:45,195 INFO  [main] root: Received Message: Status is null; KEY is a; Value is 1
+2018-03-09 16:02:10,798 INFO  [main] root: KVStore Initialized
+2018-03-09 16:02:10,849 INFO  [main] root: Successfully connected to server address: localhost port number: 50006
+2018-03-09 16:02:16,866 INFO  [main] root: Sent Message: Status is PUT; KEY is a; Value is 1
+2018-03-09 16:04:36,440 ERROR [main] root: java.lang.ClassCastException: org.json.JSONObject cannot be cast to java.base/java.util.TreeMap
+2018-03-09 16:04:36,441 ERROR [main] root: M2-Client> Error! CLI does not respond - Appilication terminated 
+2018-03-09 17:04:46,597 INFO  [main] root: KVStore Initialized
+2018-03-09 17:04:46,659 INFO  [main] root: Successfully connected to server address: localhost port number: 50006
+2018-03-09 17:04:54,916 INFO  [main] root: Sent Message: Status is PUT; KEY is a; Value is 1
+2018-03-09 17:05:07,593 INFO  [main] root: Received Message: Status is SERVER_NOT_RESPONSIBLE; KEY is a; Value is 1
+2018-03-09 17:06:06,270 INFO  [main] root: KVStore Initialized
+2018-03-09 17:06:06,345 INFO  [main] root: Successfully connected to server address: localhost port number: 50006
+2018-03-09 17:06:13,070 INFO  [main] root: Sent Message: Status is PUT; KEY is a; Value is 1
+2018-03-09 17:06:50,490 INFO  [main] root: Received Message: Status is SERVER_NOT_RESPONSIBLE; KEY is a; Value is 1
+2018-03-09 17:06:50,491 ERROR [main] root: M2-Client> Error! CLI does not respond - Appilication terminated 
+2018-03-09 17:07:24,558 INFO  [main] root: KVStore Initialized
+2018-03-09 17:07:24,642 INFO  [main] root: Successfully connected to server address: localhost port number: 50006
+2018-03-09 17:07:31,443 INFO  [main] root: Sent Message: Status is PUT; KEY is a; Value is 1
+2018-03-09 17:10:40,249 ERROR [main] root: Communicator read metadata error org.json.JSONException: JSONObject["startHash"] not found.
+2018-03-09 17:10:40,251 INFO  [main] root: Received Message: Status is SERVER_NOT_RESPONSIBLE; KEY is a; Value is 1
+2018-03-09 17:10:40,251 ERROR [main] root: M2-Client> Error! CLI does not respond - Appilication terminated 
+2018-03-09 17:16:05,844 INFO  [main] root: KVStore Initialized
+2018-03-09 17:16:05,924 INFO  [main] root: Successfully connected to server address: localhost port number: 50006
+2018-03-09 17:16:12,257 INFO  [main] root: Sent Message: Status is PUT; KEY is a; Value is 1
+2018-03-09 17:18:13,367 INFO  [main] root: Received Message: Status is SERVER_NOT_RESPONSIBLE; KEY is a; Value is 1
+2018-03-09 18:38:31,364 INFO  [main] root: KVStore Initialized
+2018-03-09 18:38:31,400 INFO  [main] root: Successfully connected to server address: localhost port number: 50006
+2018-03-09 23:56:47,522 INFO  [main] root: KVStore Initialized
+2018-03-09 23:56:47,562 INFO  [main] root: Successfully connected to server address: localhost port number: 50006
+2018-03-09 23:56:55,043 INFO  [main] root: Sent Message: Status is PUT; KEY is a; Value is 1
+2018-03-09 23:56:55,094 INFO  [main] root: Received Message: Status is SERVER_NOT_RESPONSIBLE; KEY is a; Value is 1
+2018-03-10 00:12:41,126 INFO  [main] root: KVStore Initialized
+2018-03-10 00:12:41,169 INFO  [main] root: Successfully connected to server address: localhost port number: 50006
+2018-03-10 00:13:52,495 INFO  [main] root: Sent Message: Status is PUT; KEY is a; Value is 1
+2018-03-10 00:13:52,550 INFO  [main] root: Received Message: Status is SERVER_NOT_RESPONSIBLE; KEY is a; Value is 1
+2018-03-10 00:13:52,550 INFO  [main] root: try to close connection ...
+2018-03-10 00:13:52,551 INFO  [main] root: tearing down the connection ...
+2018-03-10 00:13:52,552 INFO  [main] root: connection closed!
+2018-03-10 00:13:52,565 INFO  [main] root: Successfully connected to server address: 127.0.0.1 port number: 50001
+2018-03-10 00:13:52,566 INFO  [main] root: Sent Message: Status is PUT; KEY is a; Value is 1
+2018-03-10 00:13:52,596 INFO  [main] root: Received Message: Status is PUT_SUCCESS; KEY is a; Value is 1
+2018-03-10 00:14:02,876 INFO  [main] root: Sent Message: Status is GET; KEY is a; Value is null
+2018-03-10 00:14:02,880 INFO  [main] root: Received Message: Status is GET_SUCCESS; KEY is a; Value is 1
+2018-03-10 00:14:06,980 INFO  [main] root: Sent Message: Status is PUT; KEY is b; Value is 1
+2018-03-10 00:14:06,988 INFO  [main] root: Received Message: Status is PUT_SUCCESS; KEY is b; Value is 1
+2018-03-10 00:14:09,915 INFO  [main] root: Sent Message: Status is GET; KEY is b; Value is null
+2018-03-10 00:14:09,919 INFO  [main] root: Received Message: Status is GET_SUCCESS; KEY is b; Value is 1
+2018-03-10 00:14:15,387 INFO  [main] root: Sent Message: Status is PUT; KEY is abc; Value is null
+2018-03-10 00:14:15,391 INFO  [main] root: Received Message: Status is DELETE_ERROR; KEY is abc; Value is null
+2018-03-10 00:15:25,459 INFO  [main] root: Sent Message: Status is GET; KEY is qwertyuiopdfghjkl; Value is null
+2018-03-10 00:15:25,463 INFO  [main] root: Received Message: Status is GET_ERROR; KEY is qwertyuiopdfghjkl; Value is null
+2018-03-10 00:15:32,764 INFO  [main] root: Sent Message: Status is GET; KEY is rtyklfvbnm,xcvbnmedfghjkdefghjkxcvbnm; Value is null
+2018-03-10 00:15:32,769 INFO  [main] root: Received Message: Status is GET_ERROR; KEY is rtyklfvbnm,xcvbnmedfghjkdefghjkxcvbnm; Value is null
+2018-03-10 00:15:41,140 ERROR [main] root: M2-Client> Error! Key length should be between 1 and 20!
+2018-03-10 00:15:49,484 INFO  [main] root: Sent Message: Status is PUT; KEY is 1234567890; Value is `
+2018-03-10 00:15:49,492 INFO  [main] root: Received Message: Status is PUT_SUCCESS; KEY is 1234567890; Value is `
+2018-03-10 00:16:53,160 ERROR [main] root: M2-Client> Error! Wrong command!
+2018-03-10 00:16:56,996 INFO  [main] root: Sent Message: Status is PUT; KEY is zxy; Value is 1
+2018-03-10 00:16:57,003 INFO  [main] root: Received Message: Status is SERVER_NOT_RESPONSIBLE; KEY is zxy; Value is 1
+2018-03-10 00:16:57,004 INFO  [main] root: try to close connection ...
+2018-03-10 00:16:57,004 INFO  [main] root: tearing down the connection ...
+2018-03-10 00:16:57,004 INFO  [main] root: connection closed!
+2018-03-10 00:16:57,005 INFO  [main] root: Successfully connected to server address: 127.0.0.1 port number: 50006
+2018-03-10 00:16:57,005 INFO  [main] root: Sent Message: Status is PUT; KEY is zxy; Value is 1
+2018-03-10 00:16:57,017 INFO  [main] root: Received Message: Status is PUT_SUCCESS; KEY is zxy; Value is 1
+2018-03-10 00:17:00,688 INFO  [main] root: Sent Message: Status is GET; KEY is a; Value is null
+2018-03-10 00:17:00,699 INFO  [main] root: Received Message: Status is SERVER_NOT_RESPONSIBLE; KEY is a; Value is null
+2018-03-10 00:17:06,496 INFO  [main] root: Sent Message: Status is GET; KEY is zxy; Value is null
+2018-03-10 00:17:06,498 INFO  [main] root: Received Message: Status is GET_SUCCESS; KEY is zxy; Value is 1
+2018-03-10 00:17:11,584 INFO  [main] root: Sent Message: Status is PUT; KEY is a; Value is 1
+2018-03-10 00:17:11,591 INFO  [main] root: Received Message: Status is SERVER_NOT_RESPONSIBLE; KEY is a; Value is 1
+2018-03-10 00:17:11,591 INFO  [main] root: try to close connection ...
+2018-03-10 00:17:11,591 INFO  [main] root: tearing down the connection ...
+2018-03-10 00:17:11,591 INFO  [main] root: connection closed!
+2018-03-10 00:17:11,593 INFO  [main] root: Successfully connected to server address: 127.0.0.1 port number: 50001
+2018-03-10 00:17:11,593 INFO  [main] root: Sent Message: Status is PUT; KEY is a; Value is 1
+2018-03-10 00:17:11,624 INFO  [main] root: Received Message: Status is PUT_UPDATE; KEY is a; Value is 1
+2018-03-10 00:17:15,705 INFO  [main] root: Sent Message: Status is GET; KEY is zxy; Value is null
+2018-03-10 00:17:15,726 INFO  [main] root: Received Message: Status is SERVER_NOT_RESPONSIBLE; KEY is zxy; Value is null
+2018-03-10 00:52:40,376 INFO  [main] root: KVStore Initialized
+2018-03-10 00:52:40,410 INFO  [main] root: Successfully connected to server address: localhost port number: 50006
+2018-03-10 00:53:13,738 INFO  [main] root: Sent Message: Status is PUT; KEY is a; Value is 1
+2018-03-10 00:53:13,791 INFO  [main] root: Received Message: Status is SERVER_NOT_RESPONSIBLE; KEY is a; Value is 1
+2018-03-10 00:53:13,791 INFO  [main] root: try to close connection ...
+2018-03-10 00:53:13,791 INFO  [main] root: tearing down the connection ...
+2018-03-10 00:53:13,792 INFO  [main] root: connection closed!
+2018-03-10 00:53:13,806 INFO  [main] root: Successfully connected to server address: 127.0.0.1 port number: 50001
+2018-03-10 00:53:13,806 INFO  [main] root: Sent Message: Status is PUT; KEY is a; Value is 1
+2018-03-10 00:53:13,846 INFO  [main] root: Received Message: Status is PUT_UPDATE; KEY is a; Value is 1
+2018-03-10 00:53:19,904 INFO  [main] root: Sent Message: Status is PUT; KEY is xyz; Value is 1
+2018-03-10 00:53:19,916 INFO  [main] root: Received Message: Status is PUT_SUCCESS; KEY is xyz; Value is 1
+2018-03-10 00:53:27,305 INFO  [main] root: Sent Message: Status is PUT; KEY is zxy; Value is 1
+2018-03-10 00:53:27,315 INFO  [main] root: Received Message: Status is SERVER_NOT_RESPONSIBLE; KEY is zxy; Value is 1
+2018-03-10 00:53:27,315 INFO  [main] root: try to close connection ...
+2018-03-10 00:53:27,315 INFO  [main] root: tearing down the connection ...
+2018-03-10 00:53:27,315 INFO  [main] root: connection closed!
+2018-03-10 00:53:27,318 INFO  [main] root: Successfully connected to server address: 127.0.0.1 port number: 50006
+2018-03-10 00:53:27,319 INFO  [main] root: Sent Message: Status is PUT; KEY is zxy; Value is 1
+2018-03-10 00:53:27,331 INFO  [main] root: Received Message: Status is PUT_UPDATE; KEY is zxy; Value is 1
+2018-03-10 00:53:29,191 INFO  [main] root: Sent Message: Status is GET; KEY is a; Value is null
+2018-03-10 00:53:29,207 INFO  [main] root: Received Message: Status is SERVER_NOT_RESPONSIBLE; KEY is a; Value is null
+2018-03-10 00:53:29,207 INFO  [main] root: try to close connection ...
+2018-03-10 00:53:29,208 INFO  [main] root: tearing down the connection ...
+2018-03-10 00:53:29,208 INFO  [main] root: connection closed!
+2018-03-10 00:53:29,210 INFO  [main] root: Successfully connected to server address: 127.0.0.1 port number: 50001
+2018-03-10 00:53:29,210 INFO  [main] root: Sent Message: Status is GET; KEY is a; Value is null
+2018-03-10 00:53:29,216 INFO  [main] root: Received Message: Status is GET_SUCCESS; KEY is a; Value is 1
+2018-03-10 17:47:48,652 INFO  [main] root: KVStore Initialized
+2018-03-10 17:47:48,691 INFO  [main] root: Successfully connected to server address: localhost port number: 50001
+2018-03-10 17:47:51,825 INFO  [main] root: Sent Message: Status is PUT; KEY is a; Value is 1
+2018-03-10 17:47:51,871 INFO  [main] root: Received Message: Status is SERVER_STOPPED; KEY is a; Value is 1
+2018-03-10 17:48:14,149 INFO  [main] root: Sent Message: Status is GET; KEY is a; Value is null
+2018-03-10 17:48:14,154 INFO  [main] root: Received Message: Status is SERVER_STOPPED; KEY is a; Value is null
+2018-03-10 17:48:29,917 INFO  [main] root: Sent Message: Status is GET; KEY is a; Value is null
+2018-03-10 17:48:29,919 INFO  [main] root: Received Message: Status is SERVER_STOPPED; KEY is a; Value is null
+2018-03-10 17:49:16,159 INFO  [main] root: KVStore Initialized
+2018-03-10 17:49:16,199 INFO  [main] root: Successfully connected to server address: localhost port number: 50001
+2018-03-10 17:49:17,984 INFO  [main] root: Sent Message: Status is PUT; KEY is a; Value is 1
+2018-03-10 17:49:18,053 INFO  [main] root: Received Message: Status is PUT_SUCCESS; KEY is a; Value is 1
+2018-03-10 17:49:41,016 INFO  [main] root: Sent Message: Status is PUT; KEY is a; Value is 2
+2018-03-10 17:49:41,045 INFO  [main] root: Received Message: Status is PUT_UPDATE; KEY is a; Value is 2
+2018-03-10 17:51:11,796 INFO  [main] root: KVStore Initialized
+2018-03-10 17:51:11,833 INFO  [main] root: Successfully connected to server address: localhost port number: 50001
+2018-03-10 17:51:13,266 ERROR [main] root: M2-Client> Error! Wrong command!
+2018-03-10 17:51:14,628 INFO  [main] root: Sent Message: Status is PUT; KEY is a; Value is 1
+2018-03-10 17:51:14,698 INFO  [main] root: Received Message: Status is PUT_UPDATE; KEY is a; Value is 1
+2018-03-10 18:00:45,446 INFO  [main] root: KVStore Initialized
+2018-03-10 18:00:45,508 INFO  [main] root: Successfully connected to server address: localhost port number: 50001
+2018-03-10 18:56:18,846 INFO  [main] root: KVStore Initialized
+2018-03-10 18:56:18,913 INFO  [main] root: Successfully connected to server address: localhost port number: 50005
+2018-03-10 18:56:21,701 INFO  [main] root: Sent Message: Status is GET; KEY is a; Value is null
+2018-03-10 18:56:21,724 INFO  [main] root: Received Message: Status is SERVER_STOPPED; KEY is a; Value is null
+2018-03-10 18:56:29,178 INFO  [main] root: Sent Message: Status is GET; KEY is a; Value is null
+2018-03-10 18:56:29,180 INFO  [main] root: Received Message: Status is SERVER_STOPPED; KEY is a; Value is null
+2018-03-10 19:05:18,567 INFO  [main] root: KVStore Initialized
+2018-03-10 19:05:18,628 INFO  [main] root: Successfully connected to server address: localhost port number: 50005
+2018-03-10 19:05:19,942 INFO  [main] root: Sent Message: Status is PUT; KEY is a; Value is 1
+2018-03-10 19:05:19,971 INFO  [main] root: Received Message: Status is SERVER_STOPPED; KEY is a; Value is 1
+2018-03-10 19:05:29,290 INFO  [main] root: Sent Message: Status is PUT; KEY is a; Value is 1
+2018-03-10 19:05:29,295 INFO  [main] root: Received Message: Status is SERVER_STOPPED; KEY is a; Value is 1
+2018-03-10 19:11:15,535 INFO  [main] root: KVStore Initialized
+2018-03-10 19:11:15,583 INFO  [main] root: Successfully connected to server address: localhost port number: 50005
+2018-03-10 19:11:19,851 INFO  [main] root: Sent Message: Status is PUT; KEY is a; Value is 1
+2018-03-10 19:11:19,873 INFO  [main] root: Received Message: Status is SERVER_STOPPED; KEY is a; Value is 1
+2018-03-10 19:11:28,127 INFO  [main] root: Sent Message: Status is PUT; KEY is a; Value is 1
+2018-03-10 19:11:28,160 INFO  [main] root: Received Message: Status is SERVER_NOT_RESPONSIBLE; KEY is a; Value is 1
+2018-03-10 19:11:28,161 INFO  [main] root: try to close connection ...
+2018-03-10 19:11:28,162 INFO  [main] root: tearing down the connection ...
+2018-03-10 19:11:28,164 INFO  [main] root: connection closed!
+2018-03-10 19:11:28,203 INFO  [main] root: Successfully connected to server address: 127.0.0.1 port number: 50001
+2018-03-10 19:11:28,204 INFO  [main] root: Sent Message: Status is PUT; KEY is a; Value is 1
+2018-03-10 19:11:28,242 INFO  [main] root: Received Message: Status is PUT_SUCCESS; KEY is a; Value is 1
+2018-03-11 09:02:27,675 INFO  [main] root: KVStore Initialized
+2018-03-11 09:02:27,709 INFO  [main] root: Successfully connected to server address: localhost port number: 50001
+2018-03-11 09:03:33,817 INFO  [main] root: Successfully connected to server address: localhost port number: 50001
+2018-03-11 09:03:49,727 INFO  [main] root: Sent Message: Status is PUT; KEY is a; Value is 1
+2018-03-11 09:03:49,806 INFO  [main] root: Received Message: Status is SERVER_STOPPED; KEY is a; Value is 1
+2018-03-11 09:16:33,517 INFO  [main] root: KV Client Successfully connected to server address: localhost port number: 50001
+2018-03-11 09:16:36,463 INFO  [main] root: Status: SERVER_STOPPED Key: a Value: 1
+2018-03-11 09:16:43,514 INFO  [main] root: Status: PUT_UPDATE Key: a Value: 1
+2018-03-11 09:16:45,629 INFO  [main] root: Status: GET_SUCCESS Key: a Value: 1
+2018-03-11 09:16:50,594 INFO  [main] root: Status: PUT_SUCCESS Key: b Value: 1
+2018-03-11 09:16:57,954 ERROR [main] root: M2-Client> Error! Invalid number of parameters!
+2018-03-11 09:17:00,741 INFO  [main] root: Status: DELETE_SUCCESS Key: a Value: null
+2018-03-11 09:17:03,365 INFO  [main] root: Status: DELETE_ERROR Key: c Value: null
+2018-03-11 09:17:11,364 DEBUG [main] root: KV Communication Sent Message: Status is GET; KEY is a; Value is null
+2018-03-11 09:17:11,370 DEBUG [main] root: KV Communication Received Message: Status is GET_ERROR; KEY is a; Value is null
+2018-03-11 09:17:11,370 INFO  [main] root: Status: GET_ERROR Key: a Value: null
+2018-03-11 09:17:18,189 INFO  [main] root: Status: DELETE_ERROR Key: c Value: null
+2018-03-11 13:09:47,421 INFO  [main] root: KV Client Successfully connected to server address: localhost port number: 50006
+2018-03-11 13:10:31,817 INFO  [main] root: Status: PUT_SUCCESS Key: a Value: 1
+2018-03-11 13:10:36,376 INFO  [main] root: Logger level set to debug
+2018-03-11 13:10:45,601 DEBUG [main] root: try to close connection ...
+2018-03-11 13:10:45,602 DEBUG [main] root: tearing down the connection ...
+2018-03-11 13:10:45,602 DEBUG [main] root: connection closed!
+2018-03-11 13:10:45,602 INFO  [main] root: KV Client successfully disconnected
+2018-03-11 13:10:57,049 DEBUG [main] root: KVStore Initialized
+2018-03-11 13:10:57,051 DEBUG [main] root: KV Store successfully connected to server address: localhost port number: 50006
+2018-03-11 13:10:57,052 INFO  [main] root: KV Client Successfully connected to server address: localhost port number: 50006
+2018-03-11 13:10:58,505 DEBUG [main] root: KV Communication Sent Message: Status is GET; KEY is a; Value is null
+2018-03-11 13:10:58,512 DEBUG [main] root: KV Communication Received Message: Status is SERVER_NOT_RESPONSIBLE; KEY is a; Value is null
+2018-03-11 13:11:23,579 DEBUG [main] root: try to close connection ...
+2018-03-11 13:11:23,581 DEBUG [main] root: tearing down the connection ...
+2018-03-11 13:11:23,581 DEBUG [main] root: connection closed!
+2018-03-11 13:11:23,583 DEBUG [main] root: KV Store successfully connected to server address: 127.0.0.1 port number: 50001
+2018-03-11 13:11:23,583 DEBUG [main] root: KV Communication Sent Message: Status is GET; KEY is a; Value is null
+2018-03-11 13:11:23,587 DEBUG [main] root: KV Communication Received Message: Status is GET_SUCCESS; KEY is a; Value is 1
+2018-03-11 13:11:24,819 INFO  [main] root: Status: GET_SUCCESS Key: a Value: 1
+2018-03-11 13:11:29,430 DEBUG [main] root: KV Communication Sent Message: Status is PUT; KEY is z; Value is 1
+2018-03-11 13:11:29,442 DEBUG [main] root: KV Communication Received Message: Status is PUT_SUCCESS; KEY is z; Value is 1
+2018-03-11 13:11:46,277 INFO  [main] root: Status: PUT_SUCCESS Key: z Value: 1
+2018-03-11 13:11:46,280 DEBUG [main] root: KV Communication Sent Message: Status is PUT; KEY is zy; Value is 1
+2018-03-11 13:11:46,284 DEBUG [main] root: KV Communication Received Message: Status is PUT_SUCCESS; KEY is zy; Value is 1
+2018-03-11 13:11:48,286 INFO  [main] root: Status: PUT_SUCCESS Key: zy Value: 1
+2018-03-11 13:11:57,102 DEBUG [main] root: try to close connection ...
+2018-03-11 13:11:57,102 DEBUG [main] root: tearing down the connection ...
+2018-03-11 13:11:57,102 DEBUG [main] root: connection closed!
+2018-03-11 13:11:57,102 INFO  [main] root: KV Client successfully disconnected
+2018-03-11 13:12:00,542 DEBUG [main] root: KVStore Initialized
+2018-03-11 13:12:00,544 DEBUG [main] root: KV Store successfully connected to server address: localhost port number: 50001
+2018-03-11 13:12:00,544 INFO  [main] root: KV Client Successfully connected to server address: localhost port number: 50001
+2018-03-11 13:12:05,631 DEBUG [main] root: KV Communication Sent Message: Status is PUT; KEY is a; Value is 1
+2018-03-11 13:12:05,673 DEBUG [main] root: KV Communication Received Message: Status is PUT_UPDATE; KEY is a; Value is 1
+2018-03-11 13:12:08,538 INFO  [main] root: Status: PUT_UPDATE Key: a Value: 1
+2018-03-11 13:12:16,175 DEBUG [main] root: KV Communication Sent Message: Status is PUT; KEY is z; Value is 1
+2018-03-11 13:12:16,189 DEBUG [main] root: KV Communication Received Message: Status is PUT_UPDATE; KEY is z; Value is 1
+2018-03-11 13:12:20,876 INFO  [main] root: Status: PUT_UPDATE Key: z Value: 1
+2018-03-11 14:47:36,440 INFO  [main] root: KV Client Successfully connected to server address: localhost port number: 50006
+2018-03-11 21:00:17,776 INFO  [main] root: KV Client Successfully connected to server address: localhost port number: 50000
+2018-03-11 21:00:23,181 INFO  [main] root: KV Client successfully disconnected
+2018-03-11 21:00:29,012 INFO  [main] root: KV Client Successfully connected to server address: localhost port number: 50001
+2018-03-11 21:00:30,788 INFO  [main] root: Status: SERVER_STOPPED Key: a Value: 1
+2018-03-11 21:00:40,182 INFO  [main] root: Status: PUT_UPDATE Key: a Value: 1
+2018-03-11 21:00:44,148 INFO  [main] root: Logger level set to debug
+2018-03-11 21:00:46,381 DEBUG [main] root: KV Communication Sent Message: Status is GET; KEY is a; Value is null
+2018-03-11 21:00:46,386 DEBUG [main] root: KV Communication Received Message: Status is GET_SUCCESS; KEY is a; Value is 1
+2018-03-11 21:00:46,386 INFO  [main] root: Status: GET_SUCCESS Key: a Value: 1
+2018-03-11 21:00:49,493 DEBUG [main] root: KV Communication Sent Message: Status is GET; KEY is zz; Value is null
+2018-03-11 21:00:49,507 DEBUG [main] root: KV Communication Received Message: Status is SERVER_NOT_RESPONSIBLE; KEY is zz; Value is null
+2018-03-11 21:00:49,507 DEBUG [main] root: try to close connection ...
+2018-03-11 21:00:49,508 DEBUG [main] root: tearing down the connection ...
+2018-03-11 21:00:49,508 DEBUG [main] root: connection closed!
+2018-03-11 21:00:49,531 DEBUG [main] root: KV Store successfully connected to server address: 127.0.0.1 port number: 50006
+2018-03-11 21:00:49,531 DEBUG [main] root: KV Communication Sent Message: Status is GET; KEY is zz; Value is null
+2018-03-11 21:00:49,537 DEBUG [main] root: KV Communication Received Message: Status is GET_ERROR; KEY is zz; Value is null
+2018-03-11 21:00:49,537 INFO  [main] root: Status: GET_ERROR Key: zz Value: null

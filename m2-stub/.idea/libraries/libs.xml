@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="libs">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/slf4j-ext-1.7.25.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/log4j-1.2.17.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/slf4j-simple-1.7.25.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/apache-log4j-extras-1.2.17.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/java-json.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/zookeeper-3.4.11.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/junit-4.10.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/slf4j-api-1.7.25.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

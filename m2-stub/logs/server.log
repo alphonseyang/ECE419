@@ -1,0 +1,58 @@
+2018-03-01 22:26:08,115 INFO  [main] root: Initialize StorageManager
+2018-03-01 22:26:08,117 INFO  [main] root: Initialize FIFO cache with cache size: 10
+2018-03-01 22:26:08,118 INFO  [Thread-0] root: Initialize server ...
+2018-03-01 22:26:08,134 INFO  [Thread-0] root: Server listening on port: 5555
+2018-03-01 22:26:18,511 INFO  [Thread-0] root: Connected to localhost on port 63363
+2018-03-01 22:26:21,244 INFO  [Thread-1] root: Received Message: Status is PUT; KEY is a; Value is 1
+2018-03-01 22:26:21,245 INFO  [Thread-1] root: Key: a does not exist  in FileSystem
+2018-03-01 22:26:21,246 INFO  [Thread-1] root: Convert Key: a to Byte Array in FileSystem
+2018-03-01 22:26:21,247 INFO  [Thread-1] root: Write Byte Array to disk
+2018-03-01 22:26:21,248 INFO  [Thread-1] root: Create Key: a Value: 1 in FileSystem
+2018-03-01 22:26:21,270 INFO  [Thread-1] root: Serialized data is saved in LookupTable5555.txt
+2018-03-01 22:26:21,271 INFO  [Thread-1] root: KeyValue [a: 1] has been stored in cache.
+2018-03-01 22:26:21,271 INFO  [Thread-1] root: Sent Message: Status is PUT_SUCCESS; KEY is a; Value is 1
+2018-03-01 22:26:22,660 INFO  [Thread-1] root: Received Message: Status is GET; KEY is a; Value is null
+2018-03-01 22:26:22,660 INFO  [Thread-1] root: Found KeyValue in cache! KeyValue is: [a: 1]
+2018-03-01 22:26:22,660 INFO  [Thread-1] root: Sent Message: Status is GET_SUCCESS; KEY is a; Value is 1
+2018-03-01 22:26:26,484 INFO  [Thread-1] root: Received Message: Status is PUT; KEY is a; Value is null
+2018-03-01 22:26:26,485 INFO  [Thread-1] root: Serialized data is saved in LookupTable5555.txt
+2018-03-01 22:26:26,485 INFO  [Thread-1] root: Delete Key: a from FileSystem
+2018-03-01 22:26:26,485 INFO  [Thread-1] root: Sent Message: Status is DELETE_SUCCESS; KEY is a; Value is null
+2018-03-01 22:26:32,669 INFO  [Thread-1] root: Received Message: Status is GET; KEY is a; Value is null
+2018-03-01 22:26:32,669 INFO  [Thread-1] root: Key a is not found in cache.
+2018-03-01 22:26:32,669 INFO  [Thread-1] root: Key: a does not exist  in FileSystem
+2018-03-01 22:26:32,669 INFO  [Thread-1] root: Sent Message: Status is GET_ERROR; KEY is a; Value is null
+2018-03-01 23:15:46,372 INFO  [main] root: Load LookUp Table
+2018-03-01 23:15:46,374 INFO  [main] root: Initialize StorageManager
+2018-03-01 23:15:46,377 INFO  [main] root: Initialize FIFO cache with cache size: 10
+2018-03-01 23:15:46,378 INFO  [Thread-0] root: Initialize server ...
+2018-03-01 23:15:46,406 INFO  [Thread-0] root: Server listening on port: 5555
+2018-03-01 23:15:51,093 INFO  [main] root: Load LookUp Table
+2018-03-01 23:15:51,094 INFO  [main] root: Initialize StorageManager
+2018-03-01 23:15:51,097 INFO  [main] root: Initialize FIFO cache with cache size: 10
+2018-03-01 23:15:51,098 INFO  [Thread-0] root: Initialize server ...
+2018-03-01 23:15:51,114 INFO  [Thread-0] root: Server listening on port: 5555
+2018-03-01 23:15:59,399 INFO  [Thread-0] root: Connected to localhost on port 64271
+2018-03-01 23:16:01,355 INFO  [Thread-1] root: Received Message: Status is PUT; KEY is a; Value is 1
+2018-03-01 23:16:01,358 INFO  [Thread-1] root: Key: a does not exist  in FileSystem
+2018-03-01 23:16:01,359 INFO  [Thread-1] root: Convert Key: a to Byte Array in FileSystem
+2018-03-01 23:16:01,361 INFO  [Thread-1] root: Write Byte Array to disk
+2018-03-01 23:16:01,362 INFO  [Thread-1] root: Create Key: a Value: 1 in FileSystem
+2018-03-01 23:16:01,379 INFO  [Thread-1] root: Serialized data is saved in LookupTable5555.txt
+2018-03-01 23:16:01,380 INFO  [Thread-1] root: KeyValue [a: 1] has been stored in cache.
+2018-03-01 23:16:01,381 INFO  [Thread-1] root: Sent Message: Status is PUT_SUCCESS; KEY is a; Value is 1
+2018-03-01 23:16:03,542 INFO  [Thread-1] root: Received Message: Status is GET; KEY is a; Value is null
+2018-03-01 23:16:03,542 INFO  [Thread-1] root: Found KeyValue in cache! KeyValue is: [a: 1]
+2018-03-01 23:16:03,542 INFO  [Thread-1] root: Sent Message: Status is GET_SUCCESS; KEY is a; Value is 1
+2018-03-01 23:16:07,883 INFO  [Thread-1] root: Received Message: Status is PUT; KEY is a; Value is 32323
+2018-03-01 23:16:07,884 INFO  [Thread-1] root: Modify Valid Byte at Location: 15
+2018-03-01 23:16:07,884 INFO  [Thread-1] root: Convert Key: a to Byte Array in FileSystem
+2018-03-01 23:16:07,885 INFO  [Thread-1] root: Write Byte Array to disk
+2018-03-01 23:16:07,886 INFO  [Thread-1] root: Update Key: aValue: 32323 in FileSystem
+2018-03-01 23:16:07,888 INFO  [Thread-1] root: Serialized data is saved in LookupTable5555.txt
+2018-03-01 23:16:07,889 INFO  [Thread-1] root: KeyValue [a: 32323] has been stored in cache.
+2018-03-01 23:16:07,889 INFO  [Thread-1] root: Sent Message: Status is PUT_UPDATE; KEY is a; Value is 32323
+2018-03-01 23:16:09,367 INFO  [Thread-1] root: Received Message: Status is GET; KEY is a; Value is null
+2018-03-01 23:16:09,367 INFO  [Thread-1] root: Found KeyValue in cache! KeyValue is: [a: 32323]
+2018-03-01 23:16:09,367 INFO  [Thread-1] root: Sent Message: Status is GET_SUCCESS; KEY is a; Value is 32323
+2018-03-01 23:16:13,689 ERROR [Thread-1] root: Error! Server lost client lost! java.io.EOFException

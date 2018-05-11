@@ -1,0 +1,31 @@
+<component name="libraryTable">
+  <library name="lib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/zookeeper-3.4.11/contrib/rest/lib/asm-3.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/zookeeper-3.4.11/contrib/rest/lib/log4j-1.2.15.jar!/" />
+      <root url="jar://$PROJECT_DIR$/zookeeper-3.4.11/contrib/rest/lib/jersey-core-1.1.5.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/zookeeper-3.4.11/contrib/rest/lib/servlet-api-2.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/zookeeper-3.4.11/contrib/rest/lib/stax-api-1.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/zookeeper-3.4.11/contrib/rest/lib/slf4j-log4j12-1.6.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/zookeeper-3.4.11/contrib/rest/lib/grizzly-servlet-webserver-1.9.8.jar!/" />
+      <root url="jar://$PROJECT_DIR$/zookeeper-3.4.11/contrib/rest/lib/grizzly-rcm-1.9.8.jar!/" />
+      <root url="jar://$PROJECT_DIR$/zookeeper-3.4.11/contrib/rest/lib/grizzly-portunif-1.9.8.jar!/" />
+      <root url="jar://$PROJECT_DIR$/zookeeper-3.4.11/contrib/rest/lib/stax-api-1.0-2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/zookeeper-3.4.11/contrib/rest/lib/jettison-1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/zookeeper-3.4.11/contrib/rest/lib/jaxb-api-2.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/zookeeper-3.4.11/contrib/rest/lib/jersey-json-1.1.5.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/zookeeper-3.4.11/contrib/rest/lib/jackson-core-asl-1.1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/zookeeper-3.4.11/contrib/rest/lib/grizzly-http-servlet-1.9.8.jar!/" />
+      <root url="jar://$PROJECT_DIR$/zookeeper-3.4.11/contrib/rest/lib/grizzly-framework-1.9.8.jar!/" />
+      <root url="jar://$PROJECT_DIR$/zookeeper-3.4.11/contrib/rest/lib/jaxb-impl-2.1.12.jar!/" />
+      <root url="jar://$PROJECT_DIR$/zookeeper-3.4.11/contrib/rest/lib/activation-1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/zookeeper-3.4.11/contrib/rest/lib/slf4j-api-1.6.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/zookeeper-3.4.11/contrib/rest/lib/jsr311-api-1.1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/zookeeper-3.4.11/contrib/rest/lib/jersey-server-1.1.5.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/zookeeper-3.4.11/contrib/rest/lib/grizzly-utils-1.9.8.jar!/" />
+      <root url="jar://$PROJECT_DIR$/zookeeper-3.4.11/contrib/rest/lib/grizzly-http-1.9.8.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
